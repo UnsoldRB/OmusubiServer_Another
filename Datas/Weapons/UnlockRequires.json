@@ -1,0 +1,16 @@
+{
+    "SCAR-H": "Point: 12800 Parent: AK-47~0 Pos: 2, 1",
+    "MP5": "Point: 6500 Parent: AK-47~0 Pos: 0, 1",
+    "P90": "Point: 12000 Parent: MP5~0 Pos: 0, 1",
+    "Glock18": "Point: 16000 Parent: MP5~0 Pos: -2, 1",
+    "クイックカット": "Point: 22000 Parent: Glock18~0 Pos: -2, 1",
+    "軽量グレネード": "Point: 26000 Parent: クイックカット~0, M870~0, Glock18~1 Pos: -2, 1",
+    "M870": "Point: 16000 Parent: SCAR-H~0 Pos: 2, 1",
+    "DSR-1": "Point: 18000 Parent: SCAR-H~0 Pos: 4, 1",
+    "Zastava M76": "Point: 16000 Parent: DSR-1~0 Pos: 0, 1",
+    "Colt 357mag": "Point: 26000 Parent: Zastava M76~0 Pos: 5, 1",
+    "BST-1": "Point: 11000 Parent: DSR-1~0 Pos: 1, 1",
+    "VSS": "Point: 16000 Parent: BST-1~0 Pos: 0, 1",
+    "Stoner63": "Point: 24000 Parent: VSS~0 Pos: 2, 1",
+    "S12K": "Point: 19000 Parent: M870~0 Pos: 0, 1"
+  }

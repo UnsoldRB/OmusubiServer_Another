@@ -1,0 +1,17 @@
+Desktop>UE4RB>OmusubiServerAnotherのBuildServer.batを実行。
+↓
+[OmusubiServerAnother/Saved/StagedBuilds]にサーバーファイルができるので
+それをWinSCPでConohaVPS[/home/OmusubiServerAnother/]へ。
+↓
+OmusubiServerAnother(ﾊﾟｽﾜｰﾄﾞ: ???)でログインして、
+↓
+[sudo chmod -R a+w /home/OmusubiServerAnother/LinuxServer]
+[sudo chmod -R a+r /home/OmusubiServerAnother/LinuxServer]
+[sudo chmod -R a+x /home/OmusubiServerAnother/LinuxServer]
+↓
+[/home/OmusubiServerAnother/LinuxServer/OmusubiServerAnotherServer.sh]を実行するとサーバーが建ち上がる。
+
+
+
+※何か困ったときの検索キーワード
+ue4 cross compile linux dedicated server

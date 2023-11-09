@@ -1,0 +1,10 @@
+モデルをUE4に追加する。
+ymlをDatasフォルダーに追加する。
+[Contents/Game/Weapons/WeaponParentBP]から最も性質の似た武器のブループリントをコピーし、モデルを置きかえ、ShootSound等を設定する。
+※モデルの置き換えだけで済ませる場合かつSub or Skillの場合は、GetWeaponData関数のFindノードの武器名を書き換えること
+
+武器をプログラムする。
+PlayerControllerのテクスチャ、モデルを格納した変数に武器を追加する。
+GameStateの武器読み込み関数に武器を追加する。
+
+※Datasフォルダー(サーバー側)の更新を忘れないこと。
